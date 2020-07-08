@@ -1,3 +1,4 @@
+```
 nikhil-mundra@nikhil-mundra:~/tmp/del/cover-main/go/src/test$ go test -c -coverpkg=../...
 nikhil-mundra@nikhil-mundra:~/tmp/del/cover-main/go/src/test$ ./test.test -test.v -test.coverprofile=coverage2.out -test.run "Pkg2"
 === RUN   TestPkg2_Bye
@@ -31,3 +32,6 @@ pkg1/hello2.go:3:       Hello2          0.0%
 pkg2/bye.go:5:          Bye             100.0%
 test/test_utils.go:3:   Util_HelloWorld 0.0%
 total:                  (statements)    66.7%
+nikhil-mundra@nikhil-mundra:~/tmp/del/cover-main/go/src/test$
+
+```
